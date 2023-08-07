@@ -86,7 +86,7 @@
   let selectTopbar = select('#topbar')
   if (selectHeader) {
     const headerScrolled = () => {
-      if (window.scrollY > 10) {
+      if (window.scrollY > 120) {
         selectHeader.classList.add('header-scrolled')
         if (selectTopbar) {
           selectTopbar.classList.add('topbar-scrolled')
@@ -108,7 +108,7 @@
   let backtotop = select('.back-to-top')
   if (backtotop) {
     const toggleBacktotop = () => {
-      if (window.scrollY > 10) {
+      if (window.scrollY > 120) {
         backtotop.classList.add('active')
       } else {
         backtotop.classList.remove('active')
@@ -274,6 +274,72 @@
     }
   });
 
+
+   /**
+   * Skills animation
+   */
+   let skilsContent = select('.skills-content');
+   if (skilsContent) {
+     new Waypoint({
+       element: skilsContent,
+       offset: '80%',
+       handler: function(direction) {
+         let progress = select('.progress .progress-bar', true);
+         progress.forEach((el) => {
+           el.style.width = el.getAttribute('aria-valuenow') + '%'
+         });
+       }
+     })
+   }
+   /**
+   * Gallery Slider
+   */
+  new Swiper('.gallery-slider', {
+    speed: 400,
+    loop: true,
+    centeredSlides: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 20
+      },
+      640: {
+        slidesPerView: 3,
+        spaceBetween: 20
+      },
+      992: {
+        slidesPerView: 5,
+        spaceBetween: 20
+      }
+    }
+  });
+  /**
+   * Testimonials slider
+   */
+  new Swiper('.testimonials-slider', {
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    }
+  });
   /**
    * Animation on scroll
    */
