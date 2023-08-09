@@ -10,3 +10,58 @@
 .navbar a{
     font-size: 16px;
 }
+
+/*pillars*/
+.pillars-section .services .icon-box {
+    text-align: center;
+    padding: 70px 20px 80px 20px;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+    box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+}
+.pillars-section .services .icon-box h4 {
+    font-weight: 600;
+    margin: 10px 0 15px 0;
+    font-size: 22px;
+}
+.pillars-section .services .icon-box p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-left: 0px;
+}
+.pillars-section .services .icon-box .icon {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in-out 0.3s;
+    position: relative;
+}
+.pillars-section .services .icon-box .icon svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.pillars-section .services .icon-box .icon i {
+    font-size: 36px;
+    transition: 0.5s;
+    position: relative;
+}
+.pillars-section .services .iconbox-blue i {
+    color: #47aeff;
+}
+.pillars-section html:not(.no-js) [data-aos^=zoom][data-aos^=zoom].aos-animate {
+    opacity: 1;
+    -webkit-transform: translateZ(0) scale(1);
+    transform: translateZ(0) scale(1);
+}
+.pillars-section [data-aos][data-aos][data-aos-delay="100"].aos-animate, body[data-aos-delay="100"] [data-aos].aos-animate {
+    transition-delay: .1s;
+}
+
+.pillars-section .whyus{
+    padding-top: 60px;
+}
