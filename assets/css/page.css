@@ -248,8 +248,8 @@ section{
     overflow: hidden;
 }
 #testimonials .testimonial-item .testimonial-img {
-    width: 120px;
-   /* border-radius: 50%;*/
+    width: 165px;
+    border-radius: 10%;
     border: 4px solid #fff;
     float: left;
 }
@@ -258,13 +258,13 @@ section{
     font-weight: bold;
     margin: 10px 0 5px 0;
     color: #111;
-    margin-left: 140px;
+    margin-left: 180px;
 }
 #testimonials .testimonial-item h4 {
     font-size: 14px;
     color: #999;
     margin: 0 0 15px 0;
-    margin-left: 140px;
+    margin-left: 180px;
 }
 @media (min-width: 992px){
 
@@ -276,7 +276,7 @@ section{
 
 #testimonials .testimonial-item p {
     font-style: italic;
-    margin: 0 0 15px 140px;
+    margin: 0 0 15px 180px;
 }
 
 
@@ -298,3 +298,5 @@ section{
     position: relative;
 }
 /**/
+
+

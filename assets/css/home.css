@@ -1,3 +1,41 @@
 #hero{
     margin-bottom: 0px;
+    height: 70vh;
 }
+
+#heroCarousel{
+    padding-top: 20vh;
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+
+   
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+
+ }
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+
+ }
+
+
+ @media (max-width: 768px), (max-height: 700px){
+    #hero {
+        height: 70vh;
+        padding: inherit;
+    }
+ }
