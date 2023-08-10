@@ -330,9 +330,13 @@
     speed: 600,
     loop: true,
     autoplay: {
-      delay: 5000,
+      delay: 50000,
       disableOnInteraction: false
     },
+    autoplay: {
+      disableOnInteraction: false,
+      pauseOnMouseEnter: true,
+  },
     slidesPerView: 'auto',
     pagination: {
       el: '.swiper-pagination',
