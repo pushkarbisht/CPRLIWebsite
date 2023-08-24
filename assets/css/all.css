@@ -1,14 +1,48 @@
 #header.header-scrolled {
-    background-color: #4a43d4;
+    background-color: #fff;
 }
 #header{
-    background-color: #4a43d4;
+   /* background-color: #4a43d4;*/
+   background-color: #fff;
 }
 .logo a{
     font-size: 26px;
 }
 .navbar a{
     font-size: 16px;
+}
+
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover>a {
+    color: #000;
+}
+.navbar a, .navbar a:focus {
+    color: #000;
+ 
+}
+#hero:before
+{
+    background: #57BDA9;
+}
+#footer {
+    background: #57BDA9;
+
+}
+#footer .footer-top {
+    background: #57BDA9;
+}
+.contact .php-email-form button[type=submit]:hover {
+    background: #57BDA9;
+    color: #fff;
+}
+@media (max-width: 1200px){
+    
+    .mobile-nav-toggle {
+        display: block;
+      }
+    
+      .navbar ul {
+        display: none;
+      }
 }
 
 /*pillars*/
@@ -69,3 +103,43 @@
 .collaborator-details{
     font-size: 18px;
 }
+
+.accordion-list li{
+    text-align: justify !important;
+}
+
+#upcoming img{
+    height: 500px;
+    width: 100%;
+}
+
+.mobile-nav-toggle{
+    color: #000;
+}
+.navbar-mobile{
+    background: #57BDA9;
+}
+.navbar-mobile ul {
+    display: block !important;
+}
+.navbar-mobile{
+    left: 190px;
+    bottom: 380px;
+}
+/*
+#header .short-heading{
+    display: none;
+}
+#header .long-heading{
+    display: block;
+}
+
+@media (max-width: 1200px){
+    #header.header-scrolled .long-heading{
+        display: none;
+    }
+    #header.header-scrolled .short-heading{
+        display: block;
+    }
+}*/
+
