@@ -126,6 +126,10 @@
     left: 190px;
     bottom: 380px;
 }
+#header .long-heading{
+    margin: auto;
+    width: 99%;
+}
 /*
 #header .short-heading{
     display: none;
