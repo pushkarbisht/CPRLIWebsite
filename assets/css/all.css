@@ -129,6 +129,8 @@
 #header .long-heading{
     margin: auto;
     width: 99%;
+        font-family: 'Times new Roman';
+    font-weight: 600;
 }
 /*
 #header .short-heading{
