@@ -862,7 +862,7 @@ section {
 
 .why-us .accordion-list li {
   padding: 20px;
-  background: #fff;
+ /* background: #fff;*/
   border-radius: 4px;
 }
 

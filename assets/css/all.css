@@ -149,3 +149,12 @@
     }
 }*/
 
+div.stretch{
+    transition: all .2s ease-in-out !important;
+
+}
+div.stretch:hover{
+    transform: scale(1.1) !important;
+    z-index: 99999;
+}
+
